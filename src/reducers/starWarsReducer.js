@@ -1,7 +1,7 @@
 import { FETCH_LOADING_START, FETCH_SUCCESS, FETCH_FAILED } from "../actions";
 const initialState = {
   characters: [],
-  isLoading: true,
+  isLoading: false,
   error: []
 };
 export const charsReducer = (state = initialState, action) => {
